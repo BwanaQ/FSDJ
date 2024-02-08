@@ -26,7 +26,7 @@ def lipa_na_mpesa():
                 "PartyA": keys.phone_number,
                 "PartyB": keys.business_short_code,
                 "PhoneNumber": keys.phone_number,
-                "CallBackURL": "https://fullstackdjango.com/lipanampesa/",
+                "CallBackURL": "https://fsdj.vercel.app/api/payments/lnm/",
                 "AccountReference": " BQ001",
                 "TransactionDesc": "Pay Bwana Q"
             }
