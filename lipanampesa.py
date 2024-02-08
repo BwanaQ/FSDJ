@@ -5,11 +5,12 @@ from encode import generate_password
 from utils import get_timestamp
 import keys
 
-formatted_time=get_timestamp()
-decoded_password = generate_password(formatted_time)
+
 
 def lipa_na_mpesa(): 
     access_token=generate_access_token()
+    formatted_time=get_timestamp()
+    decoded_password = generate_password(formatted_time)
     api_url="https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest"
 
 
